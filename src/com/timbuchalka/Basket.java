@@ -22,7 +22,7 @@ public class Basket {
         this.name = name;
         this.list = new TreeMap<>();
     }
-
+//hi
     public int addToBasket(StockItem item, int quantity) {
         if ((item != null) && (quantity > 0)) {
             int inBasket = list.getOrDefault(item, 0);
